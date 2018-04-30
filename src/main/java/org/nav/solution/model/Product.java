@@ -24,15 +24,15 @@ public class Product implements Serializable{
     @Column(name="nav_register_id")
     @NotNull
 
-    private int registerId;
+    private int ProductId;
     @NotNull
     @NotEmpty
     @Size(min = 4,max = 250)
-    private String registerName;
+    private String ProductName;
     @NotEmpty
     @NotNull
     @Email
-    private String registeremail;
+    private String ProductType;
     @NotEmpty
     @NotNull
     @Size(min=6,max = 250)

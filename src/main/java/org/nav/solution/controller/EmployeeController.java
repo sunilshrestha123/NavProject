@@ -17,6 +17,11 @@ public class EmployeeController {
             return "employee";
 
     }
+
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    public String returnHello() {
+        return "hello";
+    }
     @RequestMapping(value="/employee",method = RequestMethod.POST)
     public String save(@RequestParam("employeeFname") String employeeFname,
                        @RequestParam("employeeLname")String employeeLname,
@@ -41,19 +46,19 @@ public class EmployeeController {
                         employee.setEmployeeFname(employeeFname);
                         employee.setEmployeeLname(employeeLname);
                         employee.setEmployeeBdate(employeeBdate);
-                        employee.setEmployeeGrender(employeeGender);
+                        employee.setEmployeeGender(employeeGender);
                         employee.setEmployeeEmail(employeeEmail);
                         employee.setEmployeePhone(employeePhone);
                         employee.setEmployeeMobile(employeeMobile);
                         employee.setEmployeeTitle(employeeTitle);
                         employee.setEmployeeCountry(employeeCountry);
-                        employee.setEmployeeAddress(employeeAddress);
-                        employee.setEmployeeRegion(employeeRegion);
+                      //  employee.setEmployeeAddress(employeeAddress);
+                        //employee.setEmployeeRegion(employeeRegion);
                         employee.setEmployeeCity(employeeCity);
                         employee.setEmployeePostal(empoyeePostal);
                         employee.setEmployeeHiredate(employeeHierdate);
                         employee.setEmployeePhone(employeePhoto);
-                        employee.setEmployeeSalary(employeeSalary);
+                      //  employee.setEmployeeSalary(employeeSalary);
                         employeeService.insert(employee);
         return "redirect:/displayemployee";
 }

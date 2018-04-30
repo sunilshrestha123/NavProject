@@ -27,60 +27,77 @@ public class Employee implements Serializable{
     @NotNull
 
     private int employeeId;
-;    @NotNull
+;    @NotNull(message = "Employee First name is requird")
     @NotEmpty
     @Size(min = 4,max = 250)
     private String employeeFname;
-    @NotNull
+    @NotNull(message="Employee Last name is requird")
     @NotEmpty
     @Size(min = 4,max = 250)
     private String employeeLname;
-    @NotNull
+    @NotNull(message = "Please select the employee Gender")
     @NotEmpty
-    private String employeeGrender;
-@NotEmpty
-@NotNull
-@DateTimeFormat
+    private String employeeGender;
+    @NotEmpty
+    @NotNull(message = "Please select the employe birth date")
+    @DateTimeFormat
     private String employeeBdate;
     @NotEmpty
-    @NotNull
+    @NotNull(message="Please enter the email")
     @Email
     private String employeeEmail;
     @NotEmpty
-    @NotNull
+    @NotNull(message = "please enter the phone number")
     @Size(min=4,max=20)
     private int  employeePhone;
-    @NotNull
+    @NotNull(message = "Please enter the Mobile no")
     @NotEmpty
     @Size(min = 8 ,max=20)
     private int  employeeMobile;
     @NotEmpty
-    @NotNull
+    @NotNull(message = "please Select the Employee title")
     private String employeeTitle;
     @NotEmpty
-    @NotNull
+    @NotNull(message = "please select the employee hire date")
     private String employeeHiredate;
     @NotEmpty
-    @NotNull
-    private String employeeAddress;
-    @NotEmpty
-    @NotNull
-    private String employeeCity;
-    @NotEmpty
-    @NotNull
+    @NotNull(message = "Please Select the Employee Country")
     private String employeeCountry;
     @NotEmpty
-    @NotNull
-    private String employeeRegion;
+    @NotNull(message="please enter the state")
+
+    private String employeeState;
     @NotEmpty
-    @NotNull
+    @NotNull(message="please enter the employee city")
+
+    private String employeeCity;
+    @NotEmpty
+    @NotNull(message = "please enter the employee Street name ")
+    private String employeeStreet;
+    @NotNull(message = "please enter the employee postal no")
+    @NotEmpty
     private String employeePostal;
     @NotEmpty
-    @NotNull
-    private byte[] employeephoto;
+    @NotNull(message = "please enter the employee temporary Country")
+    private String employeeTempCountry;
+    @NotEmpty
+    @NotNull(message = "please enter the employee temporary state")
+    private String employeeTempState;
+    @NotEmpty
+    @NotNull(message = "please enter the employee temporary  city ")
+    private String employeeTempCity;
+    @NotEmpty
+    @NotNull(message = "please enter the employee temporary  Street ")
+    private String employeeTempStreet;
+    @NotEmpty
+    @NotNull(message = "please enter temporary postal ")
+    private String employeeTempPostal;
     @NotEmpty
     @NotNull
-    private float employeeSalary;
+    private byte[] employeePhoto;
+    @NotEmpty
+    @NotNull
+    private byte[] employeeDocument;
 
 
 }
