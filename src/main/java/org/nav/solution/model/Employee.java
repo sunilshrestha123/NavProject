@@ -14,7 +14,7 @@ import java.io.Serializable;
 import java.sql.Blob;
 
 @Entity
-@Table(name="nav_register")
+@Table(name="nav_employee")
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
@@ -22,8 +22,8 @@ public class Employee implements Serializable{
     private static long serialVersionUID=234L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name="nav_register_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="nav_empoyee")
     @NotNull
 
     private int employeeId;
@@ -48,14 +48,15 @@ public class Employee implements Serializable{
     private String employeeEmail;
     @NotEmpty
     @NotNull(message = "please enter the phone number")
-    @Size(min=4,max=20)
-    private int  employeePhone;
+
+    private String  employeePhone;
     @NotNull(message = "Please enter the Mobile no")
     @NotEmpty
-    @Size(min = 8 ,max=20)
-    private int  employeeMobile;
+
+    private String employeeMobile;
     @NotEmpty
     @NotNull(message = "please Select the Employee title")
+
     private String employeeTitle;
     @NotEmpty
     @NotNull(message = "please select the employee hire date")
@@ -93,7 +94,10 @@ public class Employee implements Serializable{
     @NotNull(message = "please enter temporary postal ")
     private String employeeTempPostal;
     @NotEmpty
-    @NotNull
+    @NotNull(message = "please enter temporary postal ")
+    private String employeeAbout;
+    @NotEmpty
+
     private byte[] employeePhoto;
     @NotEmpty
     @NotNull

@@ -5,7 +5,6 @@
     <title>Employee Form</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <!-- Bootstrap 3.3.7 -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/list/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/list/bower_components/font-awesome/css/font-awesome.min.css">
@@ -13,9 +12,9 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/list/bower_components/Ionicons/css/ionicons.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/list/dist/css/AdminLTE.min.css">
+
     <link rel="stylesheet" href="${pageContext.request.contextPath}/list/plugins/iCheck/all.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/list/country/css/intlTelInput.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/list/country/css/demo.css">
+
 
     <!-- Select2 -->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/list/bower_components/select2/dist/css/select2.min.css">
@@ -57,8 +56,9 @@
 
         <!-- Main content -->
         <section class="content">
-            <div class="row">
 
+        <div class="row">
+            <div class="col-md-12">
 
 
 
@@ -69,14 +69,14 @@
                         </div>
                         <!-- /.box-header -->
                         <!-- form start -->
-                        <form class="form-horizontal">
+                        <form class="form-horizontal" method="post" action="/saveemployee">
                             <div class="box-body">
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">First Name :</label>
 
                                     <div class="col-sm-10">
 
-                                        <input type="text" class="form-control"  style='text-transform:uppercase'  id="fname" placeholder="Enter First Name"  name="ename">
+                                        <input type="text" class="form-control"  style='text-transform:uppercase'  id="fname" placeholder="Enter First Name"  name="employeeFname" required="true">
                                     </div>
                                 </div>
 
@@ -85,7 +85,7 @@
 
                                     <div class="col-sm-10">
 
-                                        <input type="text" class="form-control" style='text-transform:uppercase' id="lname" placeholder="Enter Last Name"  name="ename">
+                                        <input type="text" class="form-control"  style='text-transform:uppercase' style=''  required="true" id="lname" placeholder="Enter Last Name"  name="employeeLname">
                                     </div>
                                 </div>
 
@@ -94,13 +94,13 @@
                                     <div class="col-sm-10">
 
                                         <label>
-                                            <input type="radio" name="gender" class="minimal" value="Male"> &nbsp Male &nbsp
+                                            <input type="radio" name="employeeGender" class="minimal" value="Male"> &nbsp Male &nbsp
                                         </label>
                                         <label>
-                                            <input type="radio" name="gender" class="minimal" value="Female"> &nbsp Female &nbsp
+                                            <input type="radio" name="employeeGender" class="minimal" value="Female"> &nbsp Female &nbsp
                                         </label>
                                         <label>
-                                            <input type="radio" name="gender" class="minimal" value="Other"> &nbsp Other &nbsp
+                                            <input type="radio" name="employeeGender" class="minimal" value="Other"> &nbsp Other &nbsp
 
                                         </label>
                                     </div>
@@ -115,7 +115,7 @@
                                             <div class="input-group-addon">
                                                 <i class="fa fa-calendar"></i>
                                             </div>
-                                            <input type="text" class="form-control pull-right" id="datepicker">
+                                            <input type="text" class="form-control pull-right" id="datepicker" name="employeeBdate">
                                         </div>
                                         <!-- /.input group -->
 
@@ -124,13 +124,21 @@
 
 
 
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Employee Type:</label>
+
+                                    <div class="col-sm-10">
+
+                                        <input type="text" class="form-control" style='text-transform:uppercase' id="Empoyeetype" placeholder="Enter Last Name"  name="employeeTitle">
+                                    </div>
+                                </div>
 
 
                                 <div class="form-group">
                                     <label for="inputEmail3" class="col-sm-2 control-label">Email:</label>
 
                                     <div class="col-sm-10">
-                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email" name="employeeEmail">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -138,7 +146,7 @@
 
                                     <div class="col-sm-10">
 
-                                        <input type="text" class="form-control" id="phone1" placeholder="Enter Phone Number"  name="phone">
+                                        <input type="text" class="form-control" id="phone1" placeholder="Enter Phone Number"  name="employeePhone">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -146,7 +154,7 @@
 
                                     <div class="col-sm-10">
 
-                                        <input type="text" class="form-control" id="mobile" placeholder="Enter Last Name"  name="mobile">
+                                        <input type="text" class="form-control" id="mobile" placeholder="Enter Last Name"  name="employeeMobile">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -156,7 +164,7 @@
                                             <div class="input-group-addon">
                                                 <i class="fa fa-calendar"></i>
                                             </div>
-                                            <input type="text" class="form-control pull-right" id="datepicker1">
+                                            <input type="text" class="form-control pull-right" id="datepicker1" name="employeeHiredate">
                                         </div>
                                         <!-- /.input group -->
 
@@ -169,7 +177,7 @@
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label">Country</label>
                                                 <div class="col-sm-10">
-                                                <select class="form-control select2"  style="width: 100%;">
+                                                <select class="form-control select2"  style="width: 100%;" name="employeeCountry">
                                                     <option selected="selected">Nepal</option>
                                                     <option value="United States">United States</option>
                                                     <option value="United Kingdom">United Kingdom</option>
@@ -421,7 +429,7 @@
 
                                     <div class="col-sm-10">
 
-                                        <input type="text" class="form-control"    placeholder="Enter State   Name"  name="ename">
+                                        <input type="text" class="form-control"    placeholder="Enter State   Name"  name="employeeState">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -429,7 +437,7 @@
 
                                     <div class="col-sm-10">
 
-                                        <input type="text" class="form-control"   placeholder="Enter City  Name"  name="ename">
+                                        <input type="text" class="form-control"   placeholder="Enter City  Name"  name="employeeCity">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -437,7 +445,7 @@
 
                                     <div class="col-sm-10">
 
-                                        <input type="text" class="form-control"   placeholder="Enter Street Name"  name="ename">
+                                        <input type="text" class="form-control"   placeholder="Enter Street Name"  name="employeeStreet">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -445,7 +453,7 @@
 
                                     <div class="col-sm-10">
 
-                                        <input type="text" class="form-control"  placeholder="Enter Postal Code"  name="ename">
+                                        <input type="text" class="form-control"  placeholder="Enter Postal Code"  name="employeePostal">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -453,7 +461,7 @@
 
                                     <div class="col-sm-10">
 
-                                        <input type="text" class="form-control"  placeholder="Enter First Name"  name="ename">
+                                        <input type="text" class="form-control"  placeholder="Enter First Name"  name="employeeTempCountry">
                                     </div>
                                 </div>
 
@@ -462,7 +470,7 @@
 
                                     <div class="col-sm-10">
 
-                                        <input type="text" class="form-control"  placeholder="Enter Temporary State "  name="ename">
+                                        <input type="text" class="form-control"  placeholder="Enter Temporary State "  name="employeeTempState">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -470,7 +478,7 @@
 
                                     <div class="col-sm-10">
 
-                                        <input type="text" class="form-control"   placeholder="Enter Temporary City"  name="ename">
+                                        <input type="text" class="form-control"   placeholder="Enter Temporary City"  name="employeeTempCity">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -478,7 +486,7 @@
 
                                     <div class="col-sm-10">
 
-                                        <input type="text" class="form-control"  placeholder="Enter Temporary Street"  name="ename">
+                                        <input type="text" class="form-control"  placeholder="Enter Temporary Street"  name="employeeTempStreet">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -486,14 +494,38 @@
 
                                     <div class="col-sm-10">
 
-                                        <input type="text" class="form-control"  placeholder="Enter Temporary Postal code"  name="ename">
+                                        <input type="text" class="form-control"  placeholder="Enter Temporary Postal code"  name="employeeTempPostal">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">About Employee</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" rows="3" placeholder="Enter About Employee" name="employeeAbout"></textarea>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">File input</label>
+                                    <div class="col-sm-10">
+                                    <input type="file" id="exampleInputFile" class="form-control" name="employeePhoto">
+
+
+                                </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Citzenship,Password ID :</label>
+                                    <div class="col-sm-10">
+                                        <input type="file" id="exampleInputFile1" class="form-control" name="employeeDocument">
+
+
                                     </div>
                                 </div>
 
 
-
                             </div>
-
 
 
 
@@ -501,17 +533,16 @@
                             <!-- /.box-body -->
                             <div class="box-footer">
                                 <button type="submit" class="btn btn-default">Cancel</button>
-                                <button type="submit" class="btn btn-info pull-right">Sign in</button>
+                                <button type="submit" class="btn btn-info pull-right">Insert</button>
                             </div>
                             <!-- /.box-footer -->
                         </form>
                     </div>
                     <!-- /.box -->
 
-                </div>
-                <!--/.col (right) -->
+        </div>
 
-            <!-- /.row -->
+        </div>    <!-- /.row -->
         </section>
         <!-- /.content -->
     </div>
@@ -735,6 +766,7 @@
 <script src="${pageContext.request.contextPath}/list/plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
 <script src="${pageContext.request.contextPath}/list/plugins/input-mask/jquery.inputmask.extensions.js"></script>
 <!-- date-range-picker -->
+
 <script src="${pageContext.request.contextPath}/list/bower_components/moment/min/moment.min.js"></script>
 <script src="${pageContext.request.contextPath}/list/bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
 <!-- bootstrap datepicker -->
@@ -844,7 +876,7 @@
         // placeholderNumberType: "MOBILE",
         // preferredCountries: ['cn', 'jp'],
         // separateDialCode: true,
-        utilsScript: "${pageContext.request.contextPath}/list/country/js/utils.js"
+
     });
 </script>
 

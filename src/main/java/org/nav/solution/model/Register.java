@@ -16,18 +16,18 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Register implements Serializable{
-    private static long serialVersionUID=234L;
+public class Register implements Serializable {
+    private static long serialVersionUID = 234L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name="nav_register_id")
+    @Column(name = "nav_register_id")
     @NotNull
 
     private int registerId;
     @NotNull
     @NotEmpty
-    @Size(min = 4,max = 250)
+    @Size(min = 4, max = 250)
     private String registerName;
     @NotEmpty
     @NotNull
@@ -35,8 +35,8 @@ public class Register implements Serializable{
     private String registerEmail;
     @NotEmpty
     @NotNull
-    @Size(min=6,max = 250)
+    @Size(min = 6, max = 250)
     private String registerPassword;
-
+    private String confPassword;
 
 }

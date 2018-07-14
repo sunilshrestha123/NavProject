@@ -10,9 +10,10 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
+import java.util.Date;
 
 @Entity
-@Table(name="nav_register")
+@Table(name="nav_product")
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
@@ -21,22 +22,40 @@ public class Product implements Serializable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name="nav_register_id")
+    @Column(name="nav_product")
     @NotNull
 
-    private int ProductId;
+    private long ProductId;
     @NotNull
     @NotEmpty
     @Size(min = 4,max = 250)
+    @Column(name="product_name")
     private String ProductName;
+
     @NotEmpty
     @NotNull
     @Email
+    @Column(name="product_type")
     private String ProductType;
     @NotEmpty
     @NotNull
-    @Size(min=6,max = 250)
-    private String registerPassword;
+    @Column(name="product_company")
+    private String ProductCompany;
+    @Column(name="product_weight")
+    private String ProductWeight;
+    @Column(name="prooduct_description")
+    private String ProductDescription;
+    @Column(name="product_Price")
+    private Long ProductPrice;
+    private String ProductColor;
+    @Column(name="product_entryDate")
+    private String ProductEntryDate;
+    @Column(name="product_mfgdate")
+    private Date ProductMgfDate;
+    @Column(name="product_expdate")
+    private Date ProductExpDate;
+    @Column(name="product_photo")
+    private byte ProductPhoto;
 
 
 }

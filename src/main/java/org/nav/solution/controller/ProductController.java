@@ -32,6 +32,10 @@ public String returnCategory(Model model){
         return "category";
 
     }
+    @RequestMapping(value="/displayproduct")
+    public String ProductDisplay(){
+        return "displayproduct";
+    }
     @RequestMapping(value="/savecategory",method = RequestMethod.POST)
     public String save(@RequestParam("categoryName") String categoryName){
         Category category=new Category();

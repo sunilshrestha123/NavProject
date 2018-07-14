@@ -19,35 +19,40 @@ import java.io.Serializable;
 public class Sales implements Serializable{
     private static long serialVersionUID =234L;
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="nav_sales_id")
     @NotNull
     @NotEmpty
     private long salesId;
+    @Column(name="party_name")
     @NotEmpty
     @NotNull
-    @Size(min = 6,max = 250)
-private String partyName;
-    @NotNull
+    private String partyName;
+    @Column(name="salesDate")
     @NotEmpty
-    @DateTimeFormat(pattern ="yyyy-mm-dd")
-private String salesDate;
+    private String salesDate;
+    @Column(name="product_name")
     @NotEmpty
-    @NotNull
-    @Size(min=5,max =250)
-private String goodsName;
-    @NotNull
+    private String productName;
+    @Column(name="sales_invoice")
     @NotEmpty
-private long receiptBillNo;
+    private long invoiceNo;
+    @Column(name="goods_quantity")
     @NotEmpty
     @NotNull
-private int  goodsQuantitiy;
-@NotEmpty
-@NotNull
-    private double goodsPrice;
-@NotEmpty
-@NotNull
-private double goodsTotoalAmount;
+    private int productQuantity;
+    @NotEmpty
+    @NotNull
+    @Column(name="product_price")
+    private double productPrice;
+    @NotEmpty
+    @NotNull
+    @Column(name="total_amount")
+    private double TotoalAmount;
+    @Column(name="sales_remark")
+    @NotNull
+    @NotEmpty
+    private String Remark;
 
 
 }

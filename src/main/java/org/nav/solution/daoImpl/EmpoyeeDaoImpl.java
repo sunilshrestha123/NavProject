@@ -20,7 +20,7 @@ private SessionFactory sessionFactory;
         Session session=sessionFactory.openSession();
         session.save(employee);
         session.beginTransaction().commit();
-session.close();
+        session.close();
     }
 
     public List<Employee> getAllEmployee() {

@@ -3,6 +3,7 @@ package org.nav.solution.model;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -18,9 +19,11 @@ public class User implements Serializable {
 
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private int userId;
+    @NotEmpty
     private String username;
+    @NotEmpty
     private String password;
-    private int status;
+
     @OneToMany(mappedBy = "uuid")
     private List<UserRole> userRole;
 }

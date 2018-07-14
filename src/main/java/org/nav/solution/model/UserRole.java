@@ -16,7 +16,6 @@ public class UserRole implements Serializable{
     private static long serialVersionUID=1l;
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private int urId;
-
     private String role;
     @ManyToOne
     private User uuid;

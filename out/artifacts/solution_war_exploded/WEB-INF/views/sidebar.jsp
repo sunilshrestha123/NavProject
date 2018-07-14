@@ -1,6 +1,6 @@
 <header class="main-header">
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="${pageContext.request.contextPath}/index" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><b>NA</b>V</span>
         <!-- logo for regular state and mobile devices -->
@@ -307,6 +307,22 @@
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-files-o"></i>
+                    <span>Sales and Report</span>
+                    <span class="pull-right-container">
+              <span class="label label-primary pull-right">4</span>
+            </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i>Add Sales</a></li>
+                    <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i>Display Sales</a></li>
+                    <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i>Sales History</a></li>
+
+                </ul>
+            </li>
+
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-files-o"></i>
                     <span>Order</span>
                     <span class="pull-right-container">
               <span class="label label-primary pull-right">4</span>
@@ -328,11 +344,11 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Add Stock</a></li>
-                    <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Display Stock </a></li>
-                    <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i>Stock info </a></li>
-                    <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Stock history</a></li>
-                </ul>
+            <li><a href="${pageContext.request.contextPath}/stock"><i class="fa fa-circle-o"></i>Add Stock</a></li>
+            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Display Stock </a></li>
+            <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i>Stock info </a></li>
+            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Stock history</a></li>
+        </ul>
             </li>
 
             <li class="treeview">
@@ -349,6 +365,20 @@
                     <li><a href="${pageContext.request.contextPath}/employeeattendance"><i class="fa fa-circle-o"></i>Empoyee Attendence</a></li>
                     <li><a href="${pageContext.request.contextPath}/employeesalary"><i class="fa fa-circle-o"></i>Employee Salary</a></li>
                     <li><a href="${pageContext.request.contextPath}/employeeholiday"><i class="fa fa-circle-o"></i>Employee Holiday</a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-users"></i>
+                    <span>Department</span>
+                    <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="${pageContext.request.contextPath}/displayDepartment"><i class="fa fa-plus-square"></i>ADD/Display Department</a></li>
+                    <li><a href="${pageContext.request.contextPath}/displayem"><i class="fa fa-circle-o"></i>Display Employee</a></li>
+                    <
                 </ul>
             </li>
             <li class="treeview">
@@ -390,8 +420,8 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="pages/forms/general.html"><i class="fa fa-circle-o"></i>Add shipper</a></li>
-                    <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i>Display Shipper</a></li>
+                    <li><a href="${pageContext.request.contextPath}/shipper"><i class="fa fa-ship"></i>Add shipper</a></li>
+                    <li><a href="${pageContext.request.contextPath}/displayshipper"><i class="fa fa-shopping-cart"></i>Display Shipper</a></li>
                     <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i>Shipper info</a></li>
                 </ul>
             </li>

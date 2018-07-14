@@ -1,5 +1,6 @@
 package org.nav.solution.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -7,7 +8,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class IndexController {
-    @GetMapping("/login") //@RequestMapping(value="/login",method=RequestMethod.GET)
+    @Autowired
+    @GetMapping("/login")
     public String login(){
         return "login";
     }
@@ -17,8 +19,6 @@ public class IndexController {
     public String returnIndex() {
         return "index";
     }
-
-
 
     @RequestMapping(value = "/index2",method = RequestMethod.GET)
     public String returnIndex2(){

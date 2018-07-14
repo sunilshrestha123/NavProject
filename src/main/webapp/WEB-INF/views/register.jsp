@@ -51,7 +51,7 @@
                 <span class="glyphicon glyphicon-lock form-control-feedback"></span>
             </div>
             <div class="form-group has-feedback">
-                <input type="password" class="form-control" placeholder="Retype password" id="exampleInputPassword2">
+                <input type="password" class="form-control" name="reRegisterPassword" placeholder="Retype password" id="exampleInputPassword2">
                 <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
             </div>
             <div

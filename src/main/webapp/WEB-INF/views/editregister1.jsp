@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
-<head>
+<hsead>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>NAV Solution| Registration Page</title>
@@ -27,7 +27,7 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <!-- Google Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-</head>
+</hsead>
 <body class="hold-transition register-page">
 <div class="register-box">
     <div class="register-logo">
