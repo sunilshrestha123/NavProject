@@ -10,110 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7a2d71b-2203-41be-8e95-38eac2e9cbb9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/sunil.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jdmk_jmxtools_1_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jmx_jmxri_1_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jms_jms_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/api/StockApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/controller/CopyController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/controller/EmployeeExcelBuilder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/controller/EnquiryContoller.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/controller/ImageController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/mainmethod/EmployeeMain.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/EmployeeSalary.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/Invoice.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/images/del.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/images/detail.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/images/edit.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/images/print.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/displayStock.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editStock.jsp" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/solution_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/solution_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/java/org/nav/solution/pojo/JsonEncodeDemo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/java/org/nav/solution/pojo/JsonSimpleWriteExample.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/java/org/nav/solution/pojo/TokenGenerator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/java/org/nav/solution/pojo/UniquCode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/controller/EmployeeController.class" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/controller/EmployeeController.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/controller/ProductController.class" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/controller/ProductController.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/controller/StockController.class" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/controller/StockController.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/dao/StockDao.class" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/dao/StockDao.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/daoImpl/StockDaoImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/daoImpl/StockDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/model/Customer.class" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/model/Customer.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/model/Order.class" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/model/Order.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/model/Product.class" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/model/Product.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/model/Salary.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/model/Sales.class" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/model/Sales.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/model/Stock.class" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/model/Stock.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/model/User.class" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/model/User.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/model/login.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/service/StockService.class" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/service/StockService.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/serviceImpl/StockServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/serviceImpl/StockServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/spring/dispatcher-servlet.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/views/category.jsp" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/views/category.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/views/displayemployee.jsp" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/views/displayemployee.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/views/sales.jsp" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/views/sales.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/views/sidebar.jsp" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/views/sidebar.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/views/stock.jsp" afterPath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/views/stock.jsp" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/solution.iml" afterPath="$PROJECT_DIR$/solution.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java/org/nav/solution/pojo/JsonEncodeDemo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java/org/nav/solution/pojo/JsonSimpleWriteExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java/org/nav/solution/pojo/PdfDataBase.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java/org/nav/solution/pojo/PdfFile.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java/org/nav/solution/pojo/PrimaryKeyDemo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java/org/nav/solution/pojo/TokenGenerator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java/org/nav/solution/pojo/UniquCode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/controller/EmployeeController.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/controller/EmployeeController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/controller/ProductController.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/controller/ProductController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/controller/RegisterController.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/controller/RegisterController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/controller/SalesController.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/controller/SalesController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/controller/StockController.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/controller/StockController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/dao/StockDao.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/dao/StockDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/daoImpl/StockDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/daoImpl/StockDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/Customer.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/Customer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/Order.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/Order.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/Product.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/Product.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/Salary.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/Salary.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/Sales.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/Sales.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/Stock.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/Stock.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/model/login.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/service/StockService.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/service/StockService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/serviceImpl/StockServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/serviceImpl/StockServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nav/solution/validation/StockValidation.java" afterPath="$PROJECT_DIR$/src/main/java/org/nav/solution/validation/StockValidation.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/dispatcher-servlet.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/displayemployee.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/displayemployee.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sales.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sales.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sidebar.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sidebar.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/stock.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/stock.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java/org/nav/solution/pojo/JsonEncodeDemo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java/org/nav/solution/pojo/JsonSimpleWriteExample.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java/org/nav/solution/pojo/TokenGenerator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java/org/nav/solution/pojo/UniquCode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/controller/EmployeeController.class" afterPath="$PROJECT_DIR$/target/classes/org/nav/solution/controller/EmployeeController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/controller/ProductController.class" afterPath="$PROJECT_DIR$/target/classes/org/nav/solution/controller/ProductController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/controller/StockController.class" afterPath="$PROJECT_DIR$/target/classes/org/nav/solution/controller/StockController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/dao/StockDao.class" afterPath="$PROJECT_DIR$/target/classes/org/nav/solution/dao/StockDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/daoImpl/StockDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/org/nav/solution/daoImpl/StockDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/model/Customer.class" afterPath="$PROJECT_DIR$/target/classes/org/nav/solution/model/Customer.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/model/Order.class" afterPath="$PROJECT_DIR$/target/classes/org/nav/solution/model/Order.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/model/Product.class" afterPath="$PROJECT_DIR$/target/classes/org/nav/solution/model/Product.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/model/Salary.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/model/Sales.class" afterPath="$PROJECT_DIR$/target/classes/org/nav/solution/model/Sales.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/model/Stock.class" afterPath="$PROJECT_DIR$/target/classes/org/nav/solution/model/Stock.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/model/User.class" afterPath="$PROJECT_DIR$/target/classes/org/nav/solution/model/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/model/login.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/service/StockService.class" afterPath="$PROJECT_DIR$/target/classes/org/nav/solution/service/StockService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/serviceImpl/StockServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/org/nav/solution/serviceImpl/StockServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/solution_war_exploded/WEB-INF/classes/org/nav/solution/api/StockApi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/nav/solution/api/StockApi.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1015,19 +914,19 @@
       <workItem from="1533955142407" duration="3861000" />
       <workItem from="1533993387874" duration="2895000" />
       <workItem from="1534055508665" duration="3216000" />
-      <workItem from="1534082817472" duration="1548000" />
+      <workItem from="1534082817472" duration="2301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="768728000" />
+    <option name="totallyTimeSpent" value="769481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30708662" sideWeight="0.53001463" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3559055" sideWeight="0.5329429" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1038,11 +937,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49121523" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32283464" sideWeight="0.4590044" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3559055" sideWeight="0.46998537" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3559055" sideWeight="0.4670571" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.080314964" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1055,7 +955,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32283464" sideWeight="0.4590044" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="7.320644E-4" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
