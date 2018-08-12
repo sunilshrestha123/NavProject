@@ -48,9 +48,9 @@ public class RegisterController {
 
 @RequestMapping(value="/editregister/{id}",method = RequestMethod.GET)
     public String edit(@PathVariable int id,Model model) {
- Register register=registerService.getRegisterById(id);
- model.addAttribute("register",register);
-        return "editregister1";
+    Register register=registerService.getRegisterById(id);
+    model.addAttribute("register",register);
+    return "editregister1";
 
     }
 

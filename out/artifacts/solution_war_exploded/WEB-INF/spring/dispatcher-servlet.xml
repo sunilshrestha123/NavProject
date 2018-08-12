@@ -7,7 +7,7 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
     <mvc:resources mapping="/list/**" location="/resources/list/"/>
-
+    <mvc:resources location="/WEB-INF/images/" mapping="/images/**" />
 
     <mvc:annotation-driven/>
     <context:component-scan base-package="org.nav.solution"/>

@@ -23,7 +23,7 @@ public class User implements Serializable {
     private String username;
     @NotEmpty
     private String password;
-
+    private Boolean status;
     @OneToMany(mappedBy = "uuid")
     private List<UserRole> userRole;
 }

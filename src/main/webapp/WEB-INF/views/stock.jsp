@@ -73,9 +73,15 @@
                     <div class="box box-info">
                         <div class="box-header with-border">
                             <h3 class="box-title">ADD STOCK DETAILS</h3>
-                            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal-default">
+                            <div align="right">
+                            <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#modal-default">
                                 Add Category
                             </button>
+                            </div>
+                            <div align="left">
+                                <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#modal-default">
+                                    Display Stock
+                                </button>
                             <div class="modal fade" id="modal-default">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
@@ -116,10 +122,11 @@
                                         </div>
                                         <div class="col-xs-4">
                                             <label>Product Category</label>
-                                            <select class="form-control" name="productCategory" required>
+                                            <select class="form-control" name="productCategory" required >
                                                 <c:forEach items="${categoryList}" var="category">
                                                     <option value="${category.categoryid}">${category.categoryName}</option>
                                                 </c:forEach>
+
 
                                             </select>
                                         </div>
@@ -139,7 +146,7 @@
 
                                     <div class="col-xs-4">
                                         <label >Local name</label>
-                                        <input type="text" class="form-control" placeholder="enter local name" name="productLocalName" style='text-transform:uppercase'>
+                                        <input type="text" class="form-control" placeholder="enter local name" name="productLocalName" style='text-transform:uppercase' required>
                                     </div>
                                     <div class="col-xs-4">
                                         <label>Product Quantity</label>
@@ -147,7 +154,7 @@
                                     </div>
                                     <div class="col-xs-4">
                                         <label>Product Code</label>
-                                        <input type="text" class="form-control" placeholder="enter product code" name="productCode">
+                                        <input type="text" class="form-control" placeholder="enter product code" name="productCode" required>
 
                                     </div>
                                 </div>
@@ -206,6 +213,7 @@
                     <!-- /.box -->
                 </div>
                 <!--/.col (right) -->
+            </div>
             </div>
             <!-- /.row -->
         </section>

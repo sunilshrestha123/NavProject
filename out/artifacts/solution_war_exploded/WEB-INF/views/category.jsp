@@ -61,6 +61,13 @@
         <section class="content">
 
 
+            <div class="alert alert-success alert-dismissible fade show">
+                <c:forEach items="${message}" var="me">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Success!</strong>{me.}
+                </c:forEach>
+            </div>
+
 
             <div class="box box-default">
                 <div class="box-header with-border">

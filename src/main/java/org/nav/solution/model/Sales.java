@@ -10,6 +10,7 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
+import java.util.Date;
 
 @Table(name="nav_sales")
 @Entity
@@ -30,7 +31,7 @@ public class Sales implements Serializable{
     private String partyName;
     @Column(name="salesDate")
     @NotEmpty
-    private String salesDate;
+    private Date salesDate;
     @Column(name="product_name")
     @NotEmpty
     private String productName;
@@ -52,6 +53,7 @@ public class Sales implements Serializable{
     @Column(name="sales_remark")
     @NotNull
     @NotEmpty
+    private Employee employeeSales;
     private String Remark;
 
 

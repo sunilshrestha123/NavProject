@@ -69,28 +69,14 @@
                                 <tr>
                                     <th>S.No</th>
                                     <th>Employee name</th>
-                                    <th>Birthdate</th>
-                                    <th>Gender</th>
                                     <th>Email</th>
                                     <th>Phone</th>
                                     <th>Mobile no</th>
                                     <th>Title</th>
-                                    <th>Country</th>
-                                    <th>State</th>
-                                    <th>City</th>
-                                    <th>Street</th>
-                                    <th>Postal</th>
-                                    <th>Temp Country</th>
-                                    <th>Temp State</th>
-                                    <th>Temp City</th>
-                                    <th>Temp Street</th>
-                                    <th>temp Postal</th>
+
                                     <th>Hire date</th>
-                                    <th>empoyee About</th>
-                                    <th>Image</th>
-                                    <th>Image Document</th>
-                                    <th>Edit</th>
-                                    <th>Delete</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
                                 </tr>
 
                                 </thead>
@@ -99,28 +85,11 @@
     <tr>
 <td>${employee.employeeId}</td>
     <td>${employee.employeeFname} ${employee.employeeLname}</td>
-    <td>${employee.employeeBdate}</td>
-    <td>${employee.employeeGender}</td>
-    <td>${employee.employeeEmail}</td>
-
-
-    <td>${employee.employeePhone}</td>
+        <td>${employee.employeeEmail}</td>
+        <td>${employee.employeePhone}</td>
         <td>${employee.employeeMobile}</td>
         <td>${employee.employeeTitle}</td>
-    <td>${employee.employeeCountry}</td>
-    <td>${employee.employeeState}</td>
-    <td>${employee.employeeCity}</td>
-    <td>${employee.employeeStreet}</td>
-    <td>${employee.employeePostal}</td>
-    <td>${employee.employeeTempCountry}</td>
-    <td>${employee.employeeTempState}</td>
-    <td>${employee.employeeTempCity}</td>
-    <td>${employee.employeeTempStreet}</td>
-    <td>${employee.employeeTempPostal}</td>
-    <td>${employee.employeeHiredate}</td>
-    <td>${employee.employeeAbout}</td>
-        <td><img src="<c:url value='/resources/image/${employee.employeePhoto}.jpg'/>" style='width:100%'/></td>
-    <td>${employee.employeeDocument}</td>
+        <td>${employee.employeeHiredate}</td>
     <td>EDIT</td>
     <td>Delete</td>
     </tr>

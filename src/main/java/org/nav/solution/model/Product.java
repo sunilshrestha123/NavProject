@@ -31,12 +31,13 @@ public class Product implements Serializable{
     @Size(min = 4,max = 250)
     @Column(name="product_name")
     private String ProductName;
+    private String ProductCode;
 
     @NotEmpty
     @NotNull
     @Email
     @Column(name="product_type")
-    private String ProductType;
+    private String ProductCategory;
     @NotEmpty
     @NotNull
     @Column(name="product_company")

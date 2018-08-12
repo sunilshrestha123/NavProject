@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Date;
+
 @Table(name="nav_customer")
 @Data
 @Entity
@@ -16,26 +18,42 @@ import java.io.Serializable;
 public class Customer implements Serializable {
     private static long serialVersionUID=234L;
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long customerId;
+    @Column(name="customer_code")
+    private String customerCode;
+    @Column(name="customer_name")
     private String customerName;
-    private String customerCompany;
-    private String customerPhone;
-    private String customerMobile;
-    private String customerfax;
+    @Column(name = "customer_companyname")
+    private String customerCompanyName;
+    @Column (name="customer_phone")
+    private long customerPhone;
+    @Column(name="customer_mobile")
+    private long customerMobile;
+    @Column(name="customer_country")
     private String customerCountry;
+    @Column(name="customer_city")
+    private String customerCity;
+    @Column (name="customer_address")
     private String customerAddress;
+    @Column(name="customer_streetname")
     private String customerStreetname;
-    private String cutomerZipcode;
+    @Column(name="customer_zipcode")
+    private String customerZipcode;
+    @Column(name="custoemr_gender")
     private String customerGender;
+    @Column(name="customer_bdate")
     private String customerBdate;
-    private String customerPhoto;
-    private String customerEmail;
-    private String customerUsername;
+    @Column(name="customer_phott")
+    private Byte[] customerPhoto;
+    @Column(name="customer_type")
     private String customerType;
-    private String customerWebsite;
+    @Column(name="customer_email")
+    private String customerEmail;
+    @Column(name="customer_password")
     private String customerPassword;
-
-
+    private Date createdDate;
+    private Date updatedDate;
+    private boolean status;
 
 }

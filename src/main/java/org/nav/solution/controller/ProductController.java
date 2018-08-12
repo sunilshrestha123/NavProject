@@ -29,18 +29,24 @@ return "product";
     @RequestMapping(value="/category")
 public String returnCategory(Model model){
         model.addAttribute("categoryList",categoryService.listAllCategory());
+        Category category=new Category();
+        //categoryName=categoryName.toUpperCase();
+//        category.getCategoryName();
+//
+//        String result="THE NEW CATREGORY "+categoryName+" HAS been SUCCESSFULLY ADDED";
+//        model.addAttribute("message",result);
         return "category";
 
     }
-    @RequestMapping(value="/displayproduct")
-    public String ProductDisplay(){
-        return "displayproduct";
-    }
+//    @RequestMapping(value="/displayproduct")
+
     @RequestMapping(value="/savecategory",method = RequestMethod.POST)
-    public String save(@RequestParam("categoryName") String categoryName){
+    public String save(@RequestParam("categoryName") String categoryName,Model model){
+
         Category category=new Category();
         category.setCategoryName(categoryName);
         categoryService.insert(category);
+
         return "redirect:/category";
     }
 
@@ -53,5 +59,7 @@ public String delete(@PathVariable("id") int categoryid){
 
 
 }
+
+
         }
 
